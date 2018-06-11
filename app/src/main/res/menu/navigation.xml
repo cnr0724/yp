@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationFirst"
+        android:icon="@drawable/list"
+        android:title="List"/>
+
+    <item
+        android:title="Coupon"
+        android:id="@+id/navigationSecond"
+        android:icon="@drawable/coupon"/>
+
+    <item
+        android:title="Community"
+        android:id="@+id/navigationThird"
+        android:icon="@drawable/community"/>
+</menu>

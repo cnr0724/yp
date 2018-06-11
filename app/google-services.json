@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "771871889200",
+    "firebase_url": "https://yuljeonplace.firebaseio.com",
+    "project_id": "yuljeonplace",
+    "storage_bucket": "yuljeonplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771871889200:android:1badf965fe2de56b",
+        "android_client_info": {
+          "package_name": "edu.skku.swp3.yp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771871889200-jp9o1up90f49qobj5jsumr7hrp877icb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.swp3.yp",
+            "certificate_hash": "b994c30653ee37864589fde330814a575f92a969"
+          }
+        },
+        {
+          "client_id": "771871889200-5lhd7q5gg179m5e84u6vg6oos723gor9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.skku.swp3.yp",
+            "certificate_hash": "efcc4ff9eedc75da68d1c99756df2d985757232d"
+          }
+        },
+        {
+          "client_id": "771871889200-p8bcbk2f96srbjea5fnjefodqacuui86.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "771871889200-p8bcbk2f96srbjea5fnjefodqacuui86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCcBb0gXFN-n-PU_QnE2b2QOQzCndfYlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771871889200-p8bcbk2f96srbjea5fnjefodqacuui86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

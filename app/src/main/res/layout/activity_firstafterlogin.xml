@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAfterLogin"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/wc"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1,2,3"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:background="@color/colorAccent"
+                android:text="@string/rec"
+                android:textAlignment="center" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/trtv1"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/trtv2"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/trtv3"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/trtv1m"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/trtv2m"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+            <TextView
+                android:id="@+id/trtv3m"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:textAlignment="center" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:choiceMode="singleChoice"/>
+</LinearLayout>
